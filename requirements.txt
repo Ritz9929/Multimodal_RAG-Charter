@@ -1,0 +1,26 @@
+# ── Core RAG Framework ──
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-postgres>=0.0.12
+psycopg[binary]>=3.1.0
+python-dotenv>=1.0.0
+
+# ── Document Extraction ──
+PyMuPDF>=1.24.0
+python-docx>=1.1.0             # .docx extraction
+python-pptx>=0.6.23            # .pptx extraction
+pandas>=2.0.0                  # .csv extraction + table formatting
+openpyxl>=3.1.0                # .xlsx extraction (multi-sheet, images)
+tabulate>=0.9.0                # pandas .to_markdown() dependency
+Pillow>=10.0.0
+
+# ── NVIDIA NIM API Client ──
+openai>=1.0.0                  # OpenAI-compatible client for NVIDIA NIM
+
+# ── Embeddings & Reranking (local) ──
+sentence-transformers>=3.0.0   # Cross-encoder reranker
+rank-bm25                      # BM25 keyword search
+
+# ── Infrastructure ──
+truststore                     # OS certificate store for corporate networks

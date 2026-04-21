@@ -1,0 +1,23 @@
+# Ignore all markdown files
+*.md
+
+# Except README.md
+!README.md
+
+# Virtual Environment & Python Specific
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Auto-created folders
+mock_s3_storage/
+
+# Sample files
+*.pdf
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.pptx
